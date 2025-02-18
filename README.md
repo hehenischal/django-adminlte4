@@ -1,33 +1,32 @@
 AdminLTE Templates, Template Tags, and Admin Theme for Django
 =============================================================
 
-[![pypi_badge](https://badge.fury.io/py/django-adminlte3.png)](https://pypi.python.org/pypi/django-adminlte3)
+[![pypi_badge](https://badge.fury.io/py/django-adminlte4.png)](https://pypi.python.org/pypi/django-adminlte4)
 
-Django AdminLTE3 provides the functionality of the AdminLTE3 theme
+Django AdminLTE4 provides the functionality of the AdminLTE4 theme
 to developers in the form of standard base templates. Optional styling for
 Django's built-in admin interface is also provided.
 
 Installation
 ------------
 
-Installation using pip:
+- Installation using pip:
 
-    pip install django-adminlte3
+   `pip install django-adminlte4`
 
-Add to installed apps:
-
+- Add to installed apps:
+  ```python
     INSTALLED_APPS = [
          # General use templates & template tags (should appear first)
-        'adminlte3',
+        'adminlte4',
          # Optional: Django admin theme (must be before django.contrib.admin)
-        'adminlte3_theme',
-
+        'adminlte4_theme',
         ...
     ]
-
-Don't forget to collect static
+  ```
+- Don't forget to collect static
     
-    python manage.py collectstatic 
+   `python manage.py collectstatic`
 
 Usage
 -----
@@ -41,8 +40,7 @@ Install as per the above installation instructions. The django admin UI should t
 
 Documentation
 -------------
-
-Can be found at: http://django-adminlte3.readthedocs.io
+Since, this package was created by  [Nischal Lamichhane](https://github.com/hehenischal/) as the package maintainer wasnt accepting PR fixing a critical issue in django 5.1, That error has been fixed and nothing else was added, you can refer to old docs which can be found at: http://django-adminlte3.readthedocs.io
 
 Credits
 -------
@@ -52,12 +50,16 @@ This project a based heavily on work by the following:
 * dnaextrim for [django_adminlte_x]
 * beastbikes for [django-adminlte]
 * adamcharnock for [django-adminlte2]
+* d-demirci for [django-adminlte3]
+* hehenischal for [django-adminlte4]
 
 
   [django_adminlte_x]: https://github.com/dnaextrim/django_adminlte_x
   [django-adminlte]: https://github.com/beastbikes/django-adminlte/
   [django-adminlte2]: https://github.com/adamcharnock/
-  [base template]: https://github.com/d-demirci/django-adminlte3/blob/master/adminlte3/templates/adminlte/base.html
+  [django-adminlte3]: https://github.com/d-demirci/django-adminlte3
+  [django-adminlte4]: https://github.com/hehenischal/django-adminlte4
+  [base template]: https://github.com/hehenischal/django-adminlte4/blob/master/adminlte3/templates/adminlte/base.html
 
 Screenshots
 -----------

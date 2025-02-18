@@ -2,11 +2,11 @@ include LICENSE
 include README.rst
 include README.md
 include VERSION
-recursive-include adminlte3 *.py
-recursive-include adminlte3/static *
-recursive-include adminlte3/templates *
-recursive-include adminlte3/templatetags *
-recursive-include adminlte3_theme *.py
-recursive-include adminlte3_theme/static *
-recursive-include adminlte3_theme/templates *
-recursive-include adminlte3_theme/templatetags *
+recursive-include adminlte4 *.py
+recursive-include adminlte4/static *
+recursive-include adminlte4/templates *
+recursive-include adminlte4/templatetags *
+recursive-include adminlte4_theme *.py
+recursive-include adminlte4_theme/static *
+recursive-include adminlte4_theme/templates *
+recursive-include adminlte4_theme/templatetags *

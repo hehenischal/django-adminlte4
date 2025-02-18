@@ -1,8 +1,0 @@
-{
-  "name": "d3n1z",
-  "version": "1.0.0",
-  "description": "django adminlte3",
-  "dependencies": {
-    "admin-lte": "^3.0.0"
-  }
-}
