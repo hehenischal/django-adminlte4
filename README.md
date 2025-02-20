@@ -2,6 +2,7 @@ AdminLTE Templates, Template Tags, and Admin Theme for Django
 =============================================================
 
 [![pypi_badge](https://badge.fury.io/py/django-adminlte4.png)](https://pypi.python.org/pypi/django-adminlte4)
+[![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/django-adminlte4/)
 
 Django AdminLTE4 provides the functionality of the AdminLTE4 theme
 to developers in the form of standard base templates. Optional styling for
